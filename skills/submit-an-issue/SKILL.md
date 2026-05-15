@@ -76,6 +76,17 @@ Keep the body compact — a handful of sentences, not a
   wall of text — because maintainers read short bug
   reports and skim long ones.
 
+Talk like a human in the issue body and the follow-up
+  comment: use your own words, write in plain
+  conversational phrasing, and drop the stock AI cadence,
+  boilerplate openings, and buzzword strings.
+
+Do not add AI markers to the issue or the comment: no
+  mention of Claude, ChatGPT, an LLM, or any model name;
+  no `Generated with ...` footer, no `Co-Authored-By` AI
+  trailer, no robot emoji, no disclosure that the text
+  was written by an assistant.
+
 Include a file path and an approximate line number for
   the offending code (for example
   `src/parser/lexer.go:142`) so the maintainer can jump
