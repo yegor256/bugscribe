@@ -8,7 +8,9 @@ description: |
   bug is not a duplicate, write a concise report that
   names the symptom, points to the code, and suggests a
   fix, and post one short follow-up comment pinging the
-  repository owner. One bug per run, one issue per run,
+  repository owner — unless that owner is the same
+  GitHub account running the skill, in which case skip
+  the ping. One bug per run, one issue per run, at most
   one ping per run — then stop.
 ---
 
@@ -120,6 +122,13 @@ Identify the repository owner as the `owner` of the slug
 After the issue is created, capture the new issue number
   from the `gh issue create` output and use it for the
   follow-up comment in the next step.
+
+Skip the follow-up comment entirely when the identified
+  recipient is the same GitHub account running the skill
+  — compare the recipient's login against
+  `gh api user --jq .login` and post nothing when the
+  two match, because pinging yourself adds noise without
+  reaching another maintainer.
 
 Post one follow-up comment on the new issue (for example
   with
