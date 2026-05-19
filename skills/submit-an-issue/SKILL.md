@@ -74,6 +74,13 @@ Write the body as a few short paragraphs of plain prose:
   paragraph explaining why it is wrong, and one paragraph
   proposing a concrete fix.
 
+Read the bug reports in the `examples/` directory next
+  to this `SKILL.md` before drafting the body, and mirror
+  their title shape, three-paragraph structure, and plain
+  conversational tone — those examples are the calibrated
+  reference for what a good report looks like in this
+  skill.
+
 Keep the body compact — a handful of sentences, not a
   wall of text — because maintainers read short bug
   reports and skim long ones.
