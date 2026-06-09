@@ -25,7 +25,8 @@ Avoid AI cadence, boilerplate openings, and buzzword strings.
 Never add `Generated with` footers or `Co-Authored-By` AI trailers.
 Never add robot emoji.
 Include a file path and an approximate line number for the offending code.
-Quote the offending code as a snippet when it explains the bug faster than prose.
+Quote the offending code as a snippet whenever the source is available.
+Let the snippet illustrate the bug, since code shows the defect faster than prose.
 Suggest a concrete fix in one or two sentences.
 Do not propose refactors, rewrites, or sweeping redesigns.
 Do not attach patches, diffs, or pull requests to the issue.
