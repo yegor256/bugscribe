@@ -26,16 +26,19 @@ Never add `Generated with` footers or `Co-Authored-By` AI trailers.
 Never add robot emoji.
 Include a file path and an approximate line number for the offending code.
 Quote the offending code as a snippet whenever the source is available.
-Let the snippet illustrate the bug, since code shows the defect faster than prose.
+Let the snippet show the defect, since code beats prose.
 Suggest a concrete fix in one or two sentences.
 Do not propose refactors, rewrites, or sweeping redesigns.
 Do not attach patches, diffs, or pull requests to the issue.
 Do not invent reproduction steps or fabricate stack traces.
 Do not claim to have run the program.
 The owner is the slug owner, or the top recent committer for an organization.
-Skip the follow-up comment when the owner is the authenticated account.
-Post one follow-up comment `@`-mentioning the owner and offering to clarify.
+Identify the authenticated account before deciding on a follow-up comment.
+When the owner is the authenticated account, file the issue and stop.
+Never post a follow-up comment to yourself.
+Never `@`-mention the authenticated account.
+When the owner is someone else, `@`-mention the owner in one follow-up comment.
+Offer to clarify in that comment.
 Keep the comment to one or two sentences.
 Ping one account and never request a deadline.
 Stop after the follow-up comment.
-Stop after the issue instead when the comment was skipped.
