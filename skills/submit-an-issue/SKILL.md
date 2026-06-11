@@ -32,6 +32,8 @@ Do not propose refactors, rewrites, or sweeping redesigns.
 Do not attach patches, diffs, or pull requests to the issue.
 Do not invent reproduction steps or fabricate stack traces.
 Do not claim to have run the program.
+Attach the `bug` label to the issue when the account can label issues.
+Skip the label when the account lacks that permission.
 The owner is the slug owner, or the top recent committer for an organization.
 Identify the authenticated account before deciding on a follow-up comment.
 When the owner is the authenticated account, file the issue and stop.
