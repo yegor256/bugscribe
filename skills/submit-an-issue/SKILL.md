@@ -68,7 +68,9 @@ Skip label when account lacks that permission.
 
 ## Owner
 
-Treat slug owner as repository owner.
+Read `.github/CODEOWNERS` to find repository owner.
+Take account from global `*` entry as repository owner.
+Fall back to slug owner when `.github/CODEOWNERS` is absent.
 For organizations, treat top recent committer as owner.
 Identify authenticated account before deciding on follow-up comment.
 
