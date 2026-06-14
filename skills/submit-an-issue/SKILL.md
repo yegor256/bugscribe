@@ -5,8 +5,6 @@ description: |
   as GitHub issue against one specific repository.
 ---
 
-# Submit issue
-
 ## Target
 
 Target GitHub repository named by user.
