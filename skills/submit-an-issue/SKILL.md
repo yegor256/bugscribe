@@ -1,14 +1,14 @@
 ---
 name: submit-an-issue
 description: |
-  Use this skill to file one already-identified bug
-  as GitHub issue against one specific repository.
+  Use this skill when the user hands you one already-identified bug
+  to file as GitHub issue against one specific repository.
 ---
 
 ## Target
 
 Target GitHub repository named by user.
-Refuse when no concrete bug has been handed in.
+Refuse when user hands in no concrete bug.
 
 ## Research
 
@@ -34,7 +34,8 @@ Use short declarative title naming symptom and location.
 
 Write body as few short paragraphs.
 Cover bug, why it is wrong, and proposed fix.
-Read `examples/` directory and mirror its title shape, structure, and tone.
+Read `examples/` directory.
+Mirror its title shape, structure, and tone.
 Keep body compact.
 Never use Markdown headings in body or comment.
 
@@ -80,5 +81,6 @@ Never `@`-mention authenticated account.
 When owner is someone else, `@`-mention owner in one follow-up comment.
 Offer to clarify in that comment.
 Keep comment to one or two sentences.
-Ping one account and never request deadline.
+Ping one account.
+Never request deadline.
 Stop after follow-up comment.
