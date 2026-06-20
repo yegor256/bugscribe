@@ -68,7 +68,6 @@ Let snippet show defect, since code beats prose.
 Suggest concrete fix in one or two sentences.
 Limit fix to smallest viable change.
 Describe fix in prose only.
-Report symptoms visible in source.
 Base every claim on static reading of source.
 
 ## Label
