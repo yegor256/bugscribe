@@ -13,8 +13,10 @@ Require one concrete bug before proceeding.
 
 ## Format
 
-Produce one GitHub issue carrying short title and body of few plain paragraphs.
-Post one comment afterward when owner is another account.
+Produce one GitHub issue.
+Emit title as one short declarative line.
+Emit body as few paragraphs of markdown prose.
+Emit comment as one or two sentences for another owner.
 
 ## Safety
 
@@ -39,11 +41,10 @@ Check closed issues too for same symptom.
 
 ## Title
 
-Use short declarative title naming symptom and location.
+Name symptom and location in title.
 
 ## Body
 
-Write body and comment as few plain paragraphs.
 Cover bug, why it is wrong, and proposed fix.
 Read `examples/` directory.
 Mirror its title shape, structure, and tone.
@@ -88,7 +89,6 @@ Identify authenticated account before deciding on comment.
 When owner is authenticated account, file issue silently.
 When owner is another account, `@`-mention owner in one comment.
 Offer to clarify in that comment.
-Keep comment to one or two sentences.
 Ask only for owner's attention.
 Stop after one comment.
 
