@@ -7,5 +7,4 @@ Name action, target, and condition.
 Write rules as direct orders, not opinions or suggestions.
 Strip emotions and rhetorical flourish.
 Forbid `we love`, `unfortunately`, `please`, `kindly`, and exclamation marks.
-Trust agent's prior knowledge.
 Drop CLI flags, command examples, and explanations of standard tools.
