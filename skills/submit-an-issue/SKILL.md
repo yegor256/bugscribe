@@ -15,7 +15,7 @@ Require one concrete bug before proceeding.
 
 Produce one GitHub issue.
 Emit title as one short declarative line.
-Emit body as few paragraphs of markdown prose.
+Emit body as few paragraphs of markdown prose and code snippets.
 Emit comment as one or two sentences for another owner.
 
 ## Safety
@@ -46,6 +46,9 @@ Name symptom and location in title.
 ## Body
 
 Cover bug, why it is wrong, and proposed fix.
+Provide code snippets to illustrate your point.
+Use code snippet to demostrate what doesn't work now.
+Use code snippet to show what and how it is expected to work.
 Read `examples/` directory.
 Mirror its title shape, structure, and tone.
 
@@ -60,7 +63,6 @@ Keep prose free of emoji.
 
 ## Evidence
 
-Include file path and approximate line number for offending code.
 Quote offending code as snippet whenever source is available.
 Let snippet show defect, since code beats prose.
 
@@ -68,42 +70,9 @@ Let snippet show defect, since code beats prose.
 
 Suggest concrete fix in one or two sentences.
 Limit fix to smallest viable change.
-Describe fix in prose only.
 Base every claim on static reading of source.
 
 ## Label
 
 Attach `bug` label to issue when account can label issues.
 Skip label when account lacks that permission.
-
-## Owner
-
-Read `.github/CODEOWNERS` to find repository owner.
-Take account from global `*` entry as repository owner.
-Fall back to slug owner when `.github/CODEOWNERS` is absent.
-For organizations, treat top recent committer as owner.
-Identify authenticated account before deciding on comment.
-
-## Comment
-
-When owner is authenticated account, file issue silently.
-When owner is another account, `@`-mention owner in one comment.
-Offer to clarify in that comment.
-Ask only for owner's attention.
-Stop after one comment.
-
-## Example
-
-```text
-User: file the nil-deref crash in parser.go against acme/widget.
-
-Title: `Parse` panics on empty input in parser.go
-
-Body:
-The `Parse` function at parser.go:88 dereferences `tok.next` without a
-nil check. An empty input reaches that line and panics instead of
-returning an error. Guard the dereference, or return an error when
-`tok.next` is nil.
-
-Comment: @owner flagged a nil-deref panic in parser.go, happy to add detail.
-```
