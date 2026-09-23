@@ -1,5 +1,6 @@
 # Bugscribe
 
+[![dogent](https://github.com/yegor256/bugscribe/actions/workflows/dogent.yml/badge.svg)](https://github.com/yegor256/bugscribe/actions/workflows/dogent.yml)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/yegor256/bugscribe/blob/master/LICENSES/MIT.txt)
 
 A single Claude Code skill that reports an already-identified bug
