@@ -47,7 +47,7 @@ Name symptom and location in title.
 
 Cover bug, why it is wrong, and proposed fix.
 Provide code snippets to illustrate your point.
-Use code snippet to demostrate what doesn't work now.
+Use code snippet to demonstrate what doesn't work now.
 Use code snippet to show what and how it is expected to work.
 Read `examples/` directory.
 Mirror its title shape, structure, and tone.
